@@ -33,3 +33,9 @@ O streamlit é uma ferramenta que permite a criação de dashboards de forma sim
 ```
 deactivate
 ```
+
+## Deploy
+
+O deploy foi realizado no próprio streamlit, seguindo as recomendações disponíveis [nesse link](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app). Apenas é preciso indicar qual o repositório e a branch do GitHub que contém o código do dashboard, além de indicar qual o arquivo python que deve ser executado. O deploy é feito automaticamente a cada push na branch indicada. 
+
+O link para acesso é: [https://ldmfabio-bipython.streamlit.app/](https://ldmfabio-bipython.streamlit.app/).
